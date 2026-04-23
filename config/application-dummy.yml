@@ -1,0 +1,8 @@
+# Dummy config for secret scanning (test tokens only — not real credentials)
+app:
+  placeholder_api_key: "AKIAIOSFODNN7EXAMPLE"
+  internal_password: "password123"
+  github_token_style: "ghp_00000000000000000000000000000000"
+
+database:
+  url: jdbc:mysql://localhost:3306/dummy?user=admin&password=admin
